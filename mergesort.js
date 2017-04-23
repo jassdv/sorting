@@ -1,4 +1,4 @@
-unction split(wholeArray) {
+function split(wholeArray) {
   var halfwayPoint = Math.floor(wholeArray.length / 2);
   var firstHalf = wholeArray.slice(0,halfwayPoint);
   var secondHalf = wholeArray.slice(halfwayPoint);
